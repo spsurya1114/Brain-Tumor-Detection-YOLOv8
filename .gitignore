@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Data and Models
+data/
+yolov8_data/
+runs/
+test_pic/
+predictions/
+outputs/
+*.pt
+*.onnx
+
+# Ultralytics
+Ultralytics/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# Local error logs
+build_errors.txt
+
+flake8_report.txt
